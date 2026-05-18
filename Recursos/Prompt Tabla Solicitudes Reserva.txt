@@ -1,0 +1,47 @@
+Crea una tabla personalizada de Dataverse llamada “Solicitudes de Reserva”.
+
+Configura la columna primaria de la tabla así:
+- Display name: Nombre Mascota
+- Tipo de datos: Single line of text
+- Obligatoria: Business required
+
+Agrega las siguientes columnas:
+
+1. Nombre Propietario
+- Tipo de datos: Single line of text
+- Obligatoria: Business required
+
+2. Email Propietario
+- Tipo de datos: Single line of text
+- Formato: Email
+- Obligatoria: Business required
+
+3. Fecha Inicio
+- Tipo de datos: Date and time
+- Formato: Date and time
+- Obligatoria: Business required
+
+4. Fecha Fin
+- Tipo de datos: Date and time
+- Formato: Date and time
+- Obligatoria: Optional
+
+5. Costo
+- Tipo de datos: Currency
+- Obligatoria: Optional
+
+6. Notas
+- Tipo de datos: Multiple lines of text
+- Formato: Plain text
+- Obligatoria: Optional
+
+7. Decision
+- Tipo de datos: Choice local
+- Obligatoria: Optional
+- No sincronizar con una opción global
+- Opciones:
+  - Sin decidir, valor 1
+  - Aceptada, valor 2
+  - Declinada, valor 3
+- Opción predeterminada: Sin decidir
+
