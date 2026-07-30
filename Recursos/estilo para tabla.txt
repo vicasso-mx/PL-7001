@@ -1,0 +1,37 @@
+<style>
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+th {
+    background-color: #0078D4;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #D1D1D1;
+}
+
+td {
+    padding: 8px 10px;
+    border: 1px solid #D1D1D1;
+    color: #323130;
+}
+
+tr:nth-child(even) {
+    background-color: #F3F6F9;
+}
+</style>
+
+
+
+<h2 style="font-family:Arial,sans-serif;color:#323130;">
+    Reporte semanal de mascotas
+</h2>
+
+<p style="font-family:Arial,sans-serif;color:#605E5C;">
+    A continuación se muestran los registros correspondientes al reporte semanal:
+</p>
+
